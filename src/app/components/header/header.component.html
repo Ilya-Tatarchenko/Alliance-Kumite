@@ -1,0 +1,33 @@
+<header class="header">
+    <div class="container">
+        <div class="header_content">
+            <div class="logo">
+                <img src="../../../assets/img/landing/logotip.gif" alt="">
+            </div>
+
+            <nav class="header_nav">
+                <li>
+                    <a routerLink = '' class="nav_link">Главная</a>
+                </li>
+                <li>
+                    <a routerLink = "blog" class="nav_link">Блог</a>
+                </li>
+                <li>
+                    <a class="nav_link">Галлерея</a>
+                </li>
+
+                <div class="header_burger">
+                    <button (click)="burgerMenu()" id="burger_btn">open</button>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<div class="burger_menu" id="burger">
+    <div class="burger_content">
+        <a href="">Главная</a>
+        <a href="">Блог</a>
+        <a href="">Галлерея</a>
+    </div>
+</div>

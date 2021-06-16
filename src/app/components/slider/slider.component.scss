@@ -1,0 +1,9 @@
+.carousel-item{
+    height: 500px;
+}
+
+@media(max-width: 1000px){
+    .carousel-item{
+        height: auto;
+    }
+}

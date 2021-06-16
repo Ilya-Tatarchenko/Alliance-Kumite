@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Lviv Open Cup",
+        "date": "23.09.2020",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident quidem rem accusantium eius dolores obcaecati explicabo, ratione aspernatur expedita cumque.",
+        "results": "some link"
+    },
+
+    {
+        "id": 2,
+        "name": "Zytomir Open Cup",
+        "date": "12.10.2021",
+        "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident quidem rem accusantium eius dolores obcaecati explicabo, ratione aspernatur expedita cumque.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident quidem rem accusantium eius dolores obcaecati explicabo, ratione aspernatur expedita",
+        "results": "some link"
+    }
+]
