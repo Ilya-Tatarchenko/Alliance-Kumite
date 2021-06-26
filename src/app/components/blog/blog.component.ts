@@ -9,17 +9,13 @@ import { BlogService } from 'src/app/services/blog.service';
 })
 export class BlogComponent implements OnInit {
 
-  tournaments:any[] = [];
+  tournaments: Tournament[] = [];
   
   constructor(private blogService: BlogService) { }
 
   ngOnInit(): void {
     this.blogService.getTournaments()
-      .subscribe((res: Tournament) => {
-        this.tournaments = res.tournaments;
-        console.log(res);
-        console.log(this.tournaments);
-      });
+      .subscribe((res: any) => this.tournaments = res["tournamentsList"]);
   }
 
        
