@@ -1,8 +1,9 @@
-export interface Tournament {
-    tournaments: any[],
-    id: number,
-    name: string,
-    date: string,
-    description: string,
-    results: string
+export class Tournament {
+    constructor(public id: number,
+                public name: string,
+                public date: string,
+                public description: string,
+                public results: string,
+                public location: string){}
 }
+

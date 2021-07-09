@@ -11,8 +11,8 @@ export class BlogService {
 
   constructor(public http: HttpClient) { }
 
-  getTournaments(): Observable<Tournament>{
-    return this.http.get<Tournament>('../../../assets/tournaments.json');
+  getTournaments(){
+    return this.http.get('assets/tournaments.json');
   }
 
 }

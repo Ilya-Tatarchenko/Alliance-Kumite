@@ -10,22 +10,26 @@ export class HeaderComponent implements OnInit {
   constructor(private renderer: Renderer2) { }
 
   ngOnInit(): void {
+  } 
+  
+  openMenu(){
+    const burger = document.getElementById('burger');
+    const btnOpen = document.getElementById('open');
+    const btnClose = document.getElementById('close');
+
+    this.renderer.setStyle(burger, 'bottom', 'calc(0% - 70px)');
+    this.renderer.setStyle(btnOpen, 'display', 'none');
+    this.renderer.setStyle(btnClose, 'display', 'block');
   }
 
-  burgerMenu(){
+  closeMenu(){
     const burger = document.getElementById('burger');
-    const btn = document.getElementById('burger_btn');
+    const btnOpen = document.getElementById('open');
+    const btnClose = document.getElementById('close');
 
-    if(burger!.style.display = 'none')
-    {
-      this.renderer.setStyle(burger, 'display', 'block');
-      this.renderer.addClass(btn, 'opened');
-    }
-    else if(btn!.classList.contains('opened'))
-    {
-      this.renderer.setStyle(burger, 'display', 'none');
-      this.renderer.removeClass(btn, 'opened');
-    }
+    this.renderer.setStyle(burger, 'bottom', '100%');
+    this.renderer.setStyle(btnOpen, 'display', 'block');
+    this.renderer.setStyle(btnClose, 'display', 'none');
   }
 
 }

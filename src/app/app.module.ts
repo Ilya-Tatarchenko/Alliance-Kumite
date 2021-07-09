@@ -10,6 +10,8 @@ import { SliderComponent } from './components/slider/slider.component';
 import { BlogComponent } from './components/blog/blog.component';
 import { TournamentComponent } from './components/blog/tournament/tournament.component';
 import { HttpClientModule } from '@angular/common/http';
+import { TopTournamentComponent } from './components/blog/top-tournament/top-tournament.component';
+import { TournamentByIdComponent } from './components/blog/tournament-by-id/tournament-by-id.component';
 
 
 
@@ -22,6 +24,8 @@ import { HttpClientModule } from '@angular/common/http';
     SliderComponent,
     BlogComponent,
     TournamentComponent,
+    TopTournamentComponent,
+    TournamentByIdComponent,
   ],
   imports: [
     BrowserModule,

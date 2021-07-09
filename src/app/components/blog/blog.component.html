@@ -1,11 +1,15 @@
 <div class="container">
 
-  <div class="top_tournament">
-    <app-top-tournament></app-top-tournament>
-  </div>
-
-  <div class="tournaments" *ngFor='let tournament of tournaments'>
-    <app-tournament [tournament]='tournament'></app-tournament>
+  <div class="blog">
+    <div class="top_tournament">
+      <app-top-tournament></app-top-tournament>
+    </div>
+  
+    <div class="tournaments_body">
+      <div class="tournament_block" *ngFor='let tournament of tournaments'>
+        <app-tournament [tournament]='tournament'></app-tournament>
+      </div>
+    </div>
   </div>
 
 </div>

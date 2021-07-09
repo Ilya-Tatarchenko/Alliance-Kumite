@@ -2,22 +2,28 @@
     <div class="container">
         <div class="header_content">
             <div class="logo">
-                <img src="../../../assets/img/landing/logotip.gif" alt="">
+                <img src="../../../assets/img/landing/logotip.gif" alt="" routerLink = ''>
             </div>
 
             <nav class="header_nav">
                 <li>
                     <a routerLink = '' class="nav_link">Главная</a>
                 </li>
-                <li>
+                <!-- <li>
                     <a routerLink = "blog" class="nav_link">Блог</a>
-                </li>
+                </li> -->
                 <li>
-                    <a class="nav_link">Галлерея</a>
+                    <a href="http://tournament.alliancekumite.com:4200/login?isMain=true" class="nav_link">Войти</a>
                 </li>
 
                 <div class="header_burger">
-                    <button (click)="burgerMenu()" id="burger_btn">open</button>
+                    <div id="open" (click)="openMenu()">
+                        <span></span>
+                    </div>
+
+                    <div id="close" (click)="closeMenu()">
+                        <span></span>
+                    </div>
                 </div>
             </nav>
         </div>
@@ -26,8 +32,8 @@
 
 <div class="burger_menu" id="burger">
     <div class="burger_content">
-        <a href="">Главная</a>
-        <a href="">Блог</a>
-        <a href="">Галлерея</a>
+        <a routerLink = '' class="nav_link" (click)="closeMenu()">Главная</a>
+        <a routerLink = "blog" class="nav_link" (click)="closeMenu()">Блог</a>
+        <a href="" class="nav_link" (click)="closeMenu()">Галлерея</a>
     </div>
 </div>

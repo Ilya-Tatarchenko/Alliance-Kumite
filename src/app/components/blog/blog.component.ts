@@ -7,6 +7,7 @@ import { BlogService } from 'src/app/services/blog.service';
   templateUrl: './blog.component.html',
   styleUrls: ['./blog.component.scss']
 })
+
 export class BlogComponent implements OnInit {
 
   tournaments: Tournament[] = [];
@@ -18,6 +19,6 @@ export class BlogComponent implements OnInit {
       .subscribe((res: any) => this.tournaments = res["tournamentsList"]);
   }
 
-       
+  
 
 }

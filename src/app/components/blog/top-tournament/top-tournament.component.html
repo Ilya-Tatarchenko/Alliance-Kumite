@@ -1,4 +1,35 @@
-<div *ngFor='let topTournament of topTournament'>
-    {{topTournament?.name}}
+<div *ngFor='let topTournament of topTournament' class="block" (click)='goToTournament(topTournament.id)'>
+    <div class="block_img">
+
+    </div>
+    <div class="block_content">
+        <div class="title">
+            <h2>{{topTournament.name}}</h2>
+        </div>
+
+        <div class="timer">
+            <div class="timer_block">
+                <h2>2</h2>
+                <p>дня</p>
+            </div>
+            <div class="timer_block">
+                <h2>19</h2>
+                <p>часов</p>
+            </div>
+            <div class="timer_block">
+                <h2>43</h2>
+                <p>минут</p>
+            </div>
+            <div class="timer_block">
+                <h2>18</h2>
+                <p>секунд</p>
+            </div>
+        </div>
+
+        <div class="info">
+            <span>{{topTournament.location}}</span>
+            <span>{{topTournament.date}}</span>
+        </div>
+    </div>
 </div>
 

@@ -1,1 +1,15 @@
-{{tournament?.name}}
+<div class="block" (click)='goToTournament(tournament.id)'>
+    <div class="block_img">
+
+    </div>
+    <div class="block_content">
+        <div class="title">
+            <h2>{{tournament.name}}</h2>
+        </div>
+        <div class="info">
+            <span>{{tournament.location}}</span>
+            <span>{{tournament.date}}</span>
+        </div>
+    </div>
+</div>
+
