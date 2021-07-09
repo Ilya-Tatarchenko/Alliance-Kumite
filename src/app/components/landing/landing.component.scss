@@ -12,7 +12,7 @@ $blue: #384f7c;
     background-size: cover;
 
     .section1_content {
-        height: calc(100vh);
+        height: calc(105vh);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -155,6 +155,7 @@ $blue: #384f7c;
 
     h2 {
         font-size: 36px;
+        font-weight: 500;
     }
 }
 
@@ -172,10 +173,11 @@ $blue: #384f7c;
     max-height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content:start;
 
     h3 {
         font-size: 24px;
+        font-weight: 500;
     }
 
     p {

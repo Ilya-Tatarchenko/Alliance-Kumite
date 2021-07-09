@@ -10,6 +10,7 @@ export class HeaderComponent implements OnInit {
   constructor(private renderer: Renderer2) { }
 
   ngOnInit(): void {
+    
   } 
   
   openMenu(){
@@ -32,4 +33,10 @@ export class HeaderComponent implements OnInit {
     this.renderer.setStyle(btnClose, 'display', 'none');
   }
 
+  // onScroll(){
+  //   const header = document.getElementsByClassName('header');
+  //   this.renderer.setStyle(header, 'display', 'none');
+  // }
+
 }
+
