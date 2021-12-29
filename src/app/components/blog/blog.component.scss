@@ -1,18 +1,24 @@
 .tournaments_body{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     justify-items: flex-start;
     flex-wrap: wrap;
+    width: 101.5%;
 
     .tournament_block{
-        width: 30%;
-        min-height: 300px;
+        width: 32%;
+        min-height: 250px;
         max-height: auto;
-        margin-top: 15px;
+        margin-right: 15px;
+        margin-bottom: 15px;
     }
 }
 
 .blog{
     margin-top: 70px;
+}
+
+.top_tournament{
+    margin-top: 125px;
 }

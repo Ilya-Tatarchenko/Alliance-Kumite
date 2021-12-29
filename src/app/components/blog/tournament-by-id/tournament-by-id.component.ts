@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Tournament } from 'src/app/interfaces/tournaments';
+import { BlogService } from 'src/app/services/blog.service';
 
 @Component({
   selector: 'app-tournament-by-id',
@@ -8,9 +9,10 @@ import { Tournament } from 'src/app/interfaces/tournaments';
 })
 export class TournamentByIdComponent implements OnInit {
 
-  tournament = {} as Tournament;
+  // tournaments = {} as Tournament;
+  @Input('tournament') tournament: Tournament | undefined;
 
-  constructor() { }
+  constructor(public blogService: BlogService) { }
 
   ngOnInit(): void {
     

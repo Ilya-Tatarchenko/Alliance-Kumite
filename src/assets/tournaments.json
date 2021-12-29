@@ -20,16 +20,7 @@
         },
 
         {
-            "id": 3,
-            "name": "Lviv Open Cup",
-            "date": "23.09.2020",
-            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident quidem rem accusantium eius dolores obcaecati explicabo, ratione aspernatur expedita cumque.",
-            "results": "some link",
-            "location": "Lviv, Ukraine"
-        },
-    
-        {
-            "id": 4,
+            "id": 2,
             "name": "Zytomir Open Cup",
             "date": "12.10.2021",
             "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident quidem rem accusantium eius dolores obcaecati explicabo, ratione aspernatur expedita cumque.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident quidem rem accusantium eius dolores obcaecati explicabo, ratione aspernatur expedita",
@@ -38,16 +29,16 @@
         },
 
         {
-            "id": 5,
-            "name": "Lviv Open Cup",
-            "date": "23.09.2020",
-            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident quidem rem accusantium eius dolores obcaecati explicabo, ratione aspernatur expedita cumque.",
+            "id": 2,
+            "name": "Zytomir Open Cup",
+            "date": "12.10.2021",
+            "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident quidem rem accusantium eius dolores obcaecati explicabo, ratione aspernatur expedita cumque.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident quidem rem accusantium eius dolores obcaecati explicabo, ratione aspernatur expedita",
             "results": "some link",
-            "location": "Lviv, Ukraine"
+            "location": "Zhytomir, Ukraine"
         },
-    
+
         {
-            "id": 6,
+            "id": 2,
             "name": "Zytomir Open Cup",
             "date": "12.10.2021",
             "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident quidem rem accusantium eius dolores obcaecati explicabo, ratione aspernatur expedita cumque.Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident quidem rem accusantium eius dolores obcaecati explicabo, ratione aspernatur expedita",
@@ -59,7 +50,7 @@
     "topTournament":
     [
         {
-            "id": 7,
+            "id": 3,
             "name": "Предстоящий турнир",
             "date": "Когда-то",
             "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident quidem rem accusantium eius dolores obcaecati explicabo, ratione aspernatur expedita cumque.",

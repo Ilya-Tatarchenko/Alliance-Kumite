@@ -9,11 +9,11 @@
                 <li>
                     <a routerLink = '' class="nav_link">Главная</a>
                 </li>
-                <!-- <li>
-                    <a routerLink = "blog" class="nav_link">Блог</a>
-                </li> -->
                 <li>
-                    <a href="http://tournament.alliancekumite.com:4200/login?isMain=true" class="nav_link">Войти</a>
+                    <a routerLink = "blog" class="nav_link">Блог</a>
+                </li>
+                <li>
+                    <a href="http://alliancekumite.com:4200/" class="nav_link">Войти</a>
                 </li>
 
                 <div class="header_burger">
@@ -33,8 +33,8 @@
 <div class="burger_menu" id="burger">
     <div class="burger_content">
         <a routerLink = '' class="nav_link" (click)="closeMenu()">Главная</a>
-        <a href="http://tournament.alliancekumite.com:4200/login?isMain=true" class="nav_link">Войти</a>
-        <!-- <a routerLink = "blog" class="nav_link" (click)="closeMenu()">Блог</a>
+        <a href="http://alliancekumite.com:4200/" class="nav_link">Войти</a>
+        <a routerLink = "blog" class="nav_link" (click)="closeMenu()">Блог</a>
         <a href="" class="nav_link" (click)="closeMenu()">Галлерея</a> -->
     </div>
 </div>
